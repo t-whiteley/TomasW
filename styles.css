@@ -1,0 +1,80 @@
+/* General */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 12%;
+}
+
+hr {
+    border: 0 none;
+    height: 5px;
+}
+
+.blue {
+    background-color: #6274E7;
+}
+
+.purple {
+    background-color: #8752A3;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #E8E8E8;
+}
+
+.navbar-custom-container {
+    padding: 0% 12%;
+}
+
+.navbar-toggler {
+    border: 0 none;
+}
+
+
+/* Cover */
+#cover {
+    background: hsla(232, 73%, 65%, 1);
+    background: linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6274E7", endColorstr="#8752A3", GradientType=1);
+}
+
+.cover-h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.cover-h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Strategy */
+#strategy {
+    background-color: #F4F4F2;
+}
+
+.strategy-table-color {
+    background-color: #F4F4F2;
+}
+
+
+/* Plans */
+.plans-custom-container {
+    padding: 3% 24%;
+}
+
+.plan-gradient {
+    background-color: #8752A3;
+    border: 0 none;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    font-style: italic;
+}
