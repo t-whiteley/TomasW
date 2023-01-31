@@ -33,6 +33,14 @@ hr {
     border: 0 none;
 }
 
+.gradient-fill {
+    background-color: hsla(232, 73%, 65%, 1);
+    background-color: linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    background-color: -moz-linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    background-color: -webkit-linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6274E7", endColorstr="#8752A3", GradientType=1);
+
+}
 
 /* Cover */
 #cover {
@@ -54,6 +62,7 @@ hr {
     font-weight: 300;
 }
 
+
 /* Strategy */
 #strategy {
     background-color: #F4F4F2;
@@ -66,7 +75,7 @@ hr {
 
 /* Plans */
 .plans-custom-container {
-    padding: 3% 24%;
+    padding: 3% 20%;
 }
 
 .plan-gradient {
@@ -77,4 +86,58 @@ hr {
 .small-text {
     font-size: 0.8rem;
     font-style: italic;
+}
+
+
+/* About */
+#about {
+    background-color: #F4F4F2;
+}
+
+.pro-pic {
+    width: 80%;
+    border-radius: 100%;
+}
+
+
+/* Contact */
+.contact-custom-container {
+    padding: 3% 30%;
+}
+
+
+/* Projects */
+#projects {
+    background-color: #F4F4F2;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #6274e744;
+    padding: 1% 12%;
+}
+
+.footer-icons {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.icon-anchor {
+    color: black;
+    margin-bottom: 0;
+}
+
+.end-footer-fill {
+    background-color: #283065d6;
+    padding: 0 12%;
+}
+
+.bottom-footer-text {
+    margin-bottom: 0;
+    color: rgb(200, 200, 200);
 }
